@@ -1,0 +1,17 @@
+@import "./normalize.css";
+
+/*Estilos del Header*/
+@import "./header.css";
+
+
+/*Estilos del aside*/
+@import "./main.css";
+
+
+/*Estilos del Template*/
+@import "./template.css";
+
+/*Estilos de las fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+

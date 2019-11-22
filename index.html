@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tecsup Keep</title>
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/global.css" type="text/css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__content">
+			 <span>
+				<i class="material-icons header__icon--menu">menu</i>
+			</span>
+			<figure class="figure__header">
+				<img src="./images/logo.png" alt="tecsup"
+				width="40px">
+			</figure>
+		    <h3 class="header__title">Tecsup Keep</h3>
+		</div>
+
+		<div class="header__search">
+		   <input type="text"  id="input_search" placeholder="Buscar por Titulo" />
+		</div>
+
+		<div class="header__avatar">
+			<span>
+			    <i class="material-icons header__avatar--dashboard">dashboard</i>
+			</span>
+			<span>
+			  <i class="material-icons header__avatar--circle">account_circle</i>		
+			</span>
+		</div>
+	</header>
+   
+    <main class="main">
+      <ul class="main__aside">
+      	  <!--<li>
+      	 	<a href="#" class="main__aside--link">
+              <i class="material-icons">center_focus_weak</i>
+      	      <span>Notas</span>
+      	   </a>
+      	 </li>-->
+      	  <!--<li>
+      	 	<a href="#" class="main__aside--link">
+              <i class="material-icons">add_alert</i> 
+      	 	  <span>Recordatorios</span>
+      	   </a>
+      	 </li>-->
+      </ul>
+      <article class="main__article" id="main__article">
+          <div class="main__article--title hide" id="main__article__title">Titulo</div>
+          <div contenteditable="false" aria-multiline="true" role="textbox" class="main__article--textboxTitle"
+         id="main__article__textboxTitle" name="titulo"></div>
+
+
+      	 <div class="main__article--nota"
+      	 id="main__article__nota">Crear una nota</div>
+      	 <div contenteditable="true" aria-multiline="true" role="textbox" class="main__article--textbox"
+      	  id="main__article__textbox" name="nota"></div>
+
+          <i class="material-icons main__article--iconClose hide" id="icon__close">close</i>     
+      </article>
+    </main>
+     <!--<template></template>-->
+     <div class="template" id="template">
+     	
+     </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
